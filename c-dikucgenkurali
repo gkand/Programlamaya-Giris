@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main(){
+	int a, b, c;
+	printf("Birici kenari giriniz:");
+	scanf("%d", &a);
+	printf("Ikinci kenari giriniz:");
+	scanf("%d", &b);
+	printf("Ucuncu kenari giriniz:");
+	scanf("%d", &c);
+	if(a*a + b*b ==c*c || b*b + c*c == a*a || c*c + a*a == b*b)
+		printf("Olusturdugunuz ucgen bir dik ucgendir.");
+	
+	else
+		printf("Ucgen dik ucgen degildir.");
+	
+	
+	return 0;
+}
